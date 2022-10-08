@@ -1,0 +1,32 @@
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="style.css">
+</head>
+<body>
+    <div id="app">
+
+        <h3>Please click on the identical tiles to verify that you are not a robot</h3>
+        
+        <div id="images">
+            
+        </div>
+
+        <div>
+            <!-- To be rendered after two clicks of images, Double clicking same image  shouldn't render this button-->
+            <button id="btn" onclick="verify()" class="hide-button">Verify</button>
+
+            <!-- To be rendered after one or more clicks of images -->
+            <button id="reset" onclick="reset()" class="hide-button">Reset</button>
+        </div>
+
+        <div>
+
+            <p id="para"></p>
+        </div>
+
+    </div>
+    <script src="script.js" defer></script>
+</body>

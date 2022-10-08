@@ -1,0 +1,20 @@
+#images img {
+    width: 150px;
+    height: 150px;
+
+    margin: 30px;
+
+    border: 2px solid transparent;
+}
+
+.selected {
+    border: 2px solid black !important;
+}
+
+.hide-button {
+    display: none;
+}
+
+.show-button {
+    display: inline-block;
+}
